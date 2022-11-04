@@ -7,105 +7,105 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		1554DD5A5F4A46B48C11ACF8 /* ALL_BUILD */ = {
+		2998BEC1B6B94480A5B25F16 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 7E6DD0DD0C0544749D836A0E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 77AFF0B2F703439EA4BDEDB7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				35EC76268045C0802FEDB4DB /* Generate CMakeFiles/ALL_BUILD */,
-			);
-			dependencies = (
-				3EF1F5B2F0854876AEF240DF /* PBXTargetDependency */,
-				F3E93EF95B144742BA733D39 /* PBXTargetDependency */,
-			);
-			name = ALL_BUILD;
-			productName = ALL_BUILD;
-		};
-		7858C05E2DD646758CD80326 /* ZERO_CHECK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 29E63E2846EA42E6B1F8793F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
-			buildPhases = (
-				A4EEBE4356CB0E5DCE197214 /* Generate CMakeFiles/ZERO_CHECK */,
+				B62BD932BDE51256423B0C69 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
+		762A4BA8E8C049E48AA2C717 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 73AA623390974E0A868F3453 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				FE22D4BF10D6EC01D4C19653 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				7446FC04029443788B406373 /* PBXTargetDependency */,
+				84CCE55961824F7781AEB73F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		11104EBF082F43E9A7276E5A /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 04ADEA67B1BD4D25924E7FA8 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
-		5632323AB1D94D2B905F08AA /* /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = F7A6A5BFCEB34C65B6AFF001 /* /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
-		BB88B22AF28049B0A613A471 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = D2FD79954D634C7A9A500CC5 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
-		EBD742D2F299490FA502E264 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 282681E976D2435BA2A41560 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		133210DF25B242CBA99DA1D5 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = F7246A7A83214CB1BC100C0D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		1385621D5B8347009B7BE963 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F6A2FDFC8332474C990DC253 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		505E76E5ACA74A58AA13B9DC /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = A8665AF5F622432591E49019 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
+		5E34E222A5D646B7AF41B973 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 7ADE2CE1C1D04E9E8033C9BE /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		0100370E60024616B91AA14A /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		79340E3FB9CF4F87AB395F26 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		7C219D1658304C83A91248BC /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		CB9277CFE8554D318FF20009 /* Debug */ = {
+		0AA3F36F11F0423E88272E21 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
+		29FBB097D82B4806861A2B3D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		90A6CA7C55E24B78B63DBD8B /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		EBC0EC05A7C34B12BC8FC2D9 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		27074A89A13A4B9492043001 /* PBXContainerItemProxy */ = {
+		147FAFE3741F40CC925889F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 61892DB3200248199620D8B4 /* Project object */;
+			containerPortal = 106535C6A0C3424FBB5A2B70 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7858C05E2DD646758CD80326;
+			remoteGlobalIDString = 2998BEC1B6B94480A5B25F16;
 			remoteInfo = ZERO_CHECK;
 		};
-		54EC2435C7114201B7BA4A5B /* PBXContainerItemProxy */ = {
+		EE68012850074773BE729782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 61892DB3200248199620D8B4 /* Project object */;
+			containerPortal = 106535C6A0C3424FBB5A2B70 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A33EF4B0FBC444769F530142;
+			remoteGlobalIDString = BCC873B2ED654A89B7452C2F;
 			remoteInfo = ext_convertUTF;
 		};
-		A9B327F4A4C74E17B4561859 /* PBXContainerItemProxy */ = {
+		F3803E46FB5F481F9E5D6F79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 61892DB3200248199620D8B4 /* Project object */;
+			containerPortal = 106535C6A0C3424FBB5A2B70 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7858C05E2DD646758CD80326;
+			remoteGlobalIDString = 2998BEC1B6B94480A5B25F16;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04ADEA67B1BD4D25924E7FA8 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
-		282681E976D2435BA2A41560 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		3EBAF9C26BD14CB29491089F /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B24098E2FDC241CB8DD38696 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		D2FD79954D634C7A9A500CC5 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF.c; sourceTree = SOURCE_ROOT; };
-		F7A6A5BFCEB34C65B6AFF001 /* /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist; sourceTree = "<absolute>"; };
+		2807BF1453254F999798932E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7ADE2CE1C1D04E9E8033C9BE /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		A8665AF5F622432591E49019 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist"; sourceTree = "<absolute>"; };
+		B4702974C4F243BA8CF642EC /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A2FDFC8332474C990DC253 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F7246A7A83214CB1BC100C0D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2E26478A7074C349FF1037C /* Frameworks */ = {
+		65FC300BE79C4FAD820E914E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,167 +115,134 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F27876A53E9496D82B05C7F /* External */ = {
-			isa = PBXGroup;
-			children = (
-				98A63B28B7B34E62A5AE88BD /* ext_convertUTF */,
-			);
-			name = External;
-			sourceTree = "<group>";
-		};
-		3A653339674743939A4C1BC6 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		7DE8E22C6E14467992B7DFF8 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				3A653339674743939A4C1BC6 /* CMake Rules */,
-				B24098E2FDC241CB8DD38696 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		8026A69BF02E47CD8DD1DA7C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F7A6A5BFCEB34C65B6AFF001 /* /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		98A63B28B7B34E62A5AE88BD /* ext_convertUTF */ = {
-			isa = PBXGroup;
-			children = (
-				F8B9E476D20F4FEEAC330D5B /* Source Files */,
-				8026A69BF02E47CD8DD1DA7C /* Resources */,
-				282681E976D2435BA2A41560 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */,
-			);
-			name = ext_convertUTF;
-			sourceTree = "<group>";
-		};
-		A3BAF45BC02B4F0CAEC95903 /* Frameworks */ = {
+		3C7809E96A2A4953893583B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B6F99F5B33F6427481C472E8 = {
+		4FE0F2A20B954FDBA7B2FC78 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2F27876A53E9496D82B05C7F /* External */,
-				7DE8E22C6E14467992B7DFF8 /* ALL_BUILD */,
-				D406868184AA4A1D8AE21422 /* Products */,
-				A3BAF45BC02B4F0CAEC95903 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		D406868184AA4A1D8AE21422 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3EBAF9C26BD14CB29491089F /* ext_convertUTF */,
+				B4702974C4F243BA8CF642EC /* ext_convertUTF */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8B9E476D20F4FEEAC330D5B /* Source Files */ = {
+		6DF96317DD204DF1A306BF77 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				D2FD79954D634C7A9A500CC5 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTF.c */,
-				04ADEA67B1BD4D25924E7FA8 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+				C80382338B6548599BF895A2 /* CMake Rules */,
+				2807BF1453254F999798932E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		929F746579A04C92B4D9A21C /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				B14D48BADFFA49EDB09FD750 /* Source Files */,
+				BB45770F0C8E44DF9413B7C0 /* Resources */,
+				F6A2FDFC8332474C990DC253 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		995DB7529EE24E83A00D83CB = {
+			isa = PBXGroup;
+			children = (
+				DE52524A43794B4993911AA4 /* External */,
+				6DF96317DD204DF1A306BF77 /* ALL_BUILD */,
+				4FE0F2A20B954FDBA7B2FC78 /* Products */,
+				3C7809E96A2A4953893583B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B14D48BADFFA49EDB09FD750 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7246A7A83214CB1BC100C0D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				7ADE2CE1C1D04E9E8033C9BE /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
 			);
 			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BB45770F0C8E44DF9413B7C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8665AF5F622432591E49019 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C80382338B6548599BF895A2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DE52524A43794B4993911AA4 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				929F746579A04C92B4D9A21C /* ext_convertUTF */,
+			);
+			name = External;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A33EF4B0FBC444769F530142 /* ext_convertUTF */ = {
+		BCC873B2ED654A89B7452C2F /* ext_convertUTF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607F6C0307A74BEBB1EB29F1 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildConfigurationList = 0A861C83C8354AC3B5DFCB60 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
 			buildPhases = (
-				B07AAED8BAAC44F6B54453B1 /* Sources */,
-				D2E26478A7074C349FF1037C /* Frameworks */,
+				DFA667E77B2C44E186FADF8D /* Sources */,
+				65FC300BE79C4FAD820E914E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0DE00FE09B1D44BF8EFC76AA /* PBXTargetDependency */,
+				6D23CBB9A4AD4DE5946C015C /* PBXTargetDependency */,
 			);
 			name = ext_convertUTF;
 			productName = ext_convertUTF;
-			productReference = 3EBAF9C26BD14CB29491089F /* ext_convertUTF */;
+			productReference = B4702974C4F243BA8CF642EC /* ext_convertUTF */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		61892DB3200248199620D8B4 /* Project object */ = {
+		106535C6A0C3424FBB5A2B70 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1410;
 			};
-			buildConfigurationList = 3FB2CCB148964D4093838F17 /* Build configuration list for PBXProject "convertUTF" */;
+			buildConfigurationList = EF0B060023F943BDB80FC0F6 /* Build configuration list for PBXProject "convertUTF" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				CB9277CFE8554D318FF20009 /* Debug */,
-				79340E3FB9CF4F87AB395F26 /* Release */,
-				7C219D1658304C83A91248BC /* MinSizeRel */,
-				0100370E60024616B91AA14A /* RelWithDebInfo */,
+				0AA3F36F11F0423E88272E21 /* Debug */,
+				90A6CA7C55E24B78B63DBD8B /* Release */,
+				EBC0EC05A7C34B12BC8FC2D9 /* MinSizeRel */,
+				29FBB097D82B4806861A2B3D /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = B6F99F5B33F6427481C472E8;
-			projectDirPath = /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF;
+			mainGroup = 995DB7529EE24E83A00D83CB;
+			projectDirPath = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF";
 			projectRoot = "";
 			targets = (
-				1554DD5A5F4A46B48C11ACF8 /* ALL_BUILD */,
-				7858C05E2DD646758CD80326 /* ZERO_CHECK */,
-				A33EF4B0FBC444769F530142 /* ext_convertUTF */,
+				762A4BA8E8C049E48AA2C717 /* ALL_BUILD */,
+				2998BEC1B6B94480A5B25F16 /* ZERO_CHECK */,
+				BCC873B2ED654A89B7452C2F /* ext_convertUTF */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		35EC76268045C0802FEDB4DB /* Generate CMakeFiles/ALL_BUILD */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate CMakeFiles/ALL_BUILD";
-			outputPaths = (
-/Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ALL_BUILD			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
-  echo Build\\ all\\ projects
-fi
-";
-			showEnvVarsInLog = 0;
-		};
 		3C0110FC8322DE7E50886E21 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,7 +273,7 @@ exit 0";
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		A4EEBE4356CB0E5DCE197214 /* Generate CMakeFiles/ZERO_CHECK */ = {
+		B62BD932BDE51256423B0C69 /* Generate CMakeFiles/ZERO_CHECK */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -316,25 +283,58 @@ exit 0";
 			);
 			name = "Generate CMakeFiles/ZERO_CHECK";
 			outputPaths = (
-/Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ZERO_CHECK			);
+"/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ZERO_CHECK"			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
-  make -f /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
+  make -f /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
-  make -f /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
+  make -f /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
-  make -f /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
+  make -f /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
-  make -f /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
+  make -f /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		FE22D4BF10D6EC01D4C19653 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF
+  echo Build\\ all\\ projects
 fi
 ";
 			showEnvVarsInLog = 0;
@@ -342,288 +342,41 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B07AAED8BAAC44F6B54453B1 /* Sources */ = {
+		DFA667E77B2C44E186FADF8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB88B22AF28049B0A613A471 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTF.c */,
-				11104EBF082F43E9A7276E5A /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+				133210DF25B242CBA99DA1D5 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				5E34E222A5D646B7AF41B973 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DE00FE09B1D44BF8EFC76AA /* PBXTargetDependency */ = {
+		6D23CBB9A4AD4DE5946C015C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7858C05E2DD646758CD80326 /* ZERO_CHECK */;
-			targetProxy = A9B327F4A4C74E17B4561859 /* PBXContainerItemProxy */;
+			target = 2998BEC1B6B94480A5B25F16 /* ZERO_CHECK */;
+			targetProxy = 147FAFE3741F40CC925889F4 /* PBXContainerItemProxy */;
 		};
-		3EF1F5B2F0854876AEF240DF /* PBXTargetDependency */ = {
+		7446FC04029443788B406373 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A33EF4B0FBC444769F530142 /* ext_convertUTF */;
-			targetProxy = 54EC2435C7114201B7BA4A5B /* PBXContainerItemProxy */;
+			target = BCC873B2ED654A89B7452C2F /* ext_convertUTF */;
+			targetProxy = EE68012850074773BE729782 /* PBXContainerItemProxy */;
 		};
-		F3E93EF95B144742BA733D39 /* PBXTargetDependency */ = {
+		84CCE55961824F7781AEB73F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7858C05E2DD646758CD80326 /* ZERO_CHECK */;
-			targetProxy = 27074A89A13A4B9492043001 /* PBXContainerItemProxy */;
+			target = 2998BEC1B6B94480A5B25F16 /* ZERO_CHECK */;
+			targetProxy = F3803E46FB5F481F9E5D6F79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0BB0C02EA26F473EA33B89CD /* MinSizeRel */ = {
+		014B3992CBA34E8B91ECF189 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		198141109D704B33B97805F1 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		21FFE6576B814A229803892B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		28A10624F6F84DD490E9BF84 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		33BBE59C23A14C8A8C2F2574 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/build;
-			};
-			name = RelWithDebInfo;
-		};
-		43B3CCB330A6442086C1ECFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/build;
-			};
-			name = Debug;
-		};
-		501D312AEDC045A7AE20D25D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		550B7BEC45B04FF5B698700B /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/build;
-			};
-			name = MinSizeRel;
-		};
-		5D2A96099BC349CEB336F4FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/build;
-			};
-			name = Release;
-		};
-		78C924F61A424B4C81A400DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/lib/Release;
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/.,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_convertUTF;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		7C95E9BF662549C5BF0A3F6B /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/lib/RelWithDebInfo;
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/.,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_convertUTF;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		818E2D5BECBB48DA8036BEF9 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/lib/MinSizeRel;
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/.,"$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_convertUTF;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		95B0FBB3C5A041D0BF184E2D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		A06D60741B924756B43A587A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/lib/Debug;
+				CONFIGURATION_BUILD_DIR = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/lib/Debug";
 				ENABLE_BITCODE = NO;
 				EXECUTABLE_PREFIX = lib;
 				EXECUTABLE_SUFFIX = .a;
@@ -632,7 +385,7 @@ fi
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				HEADER_SEARCH_PATHS = ("/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/.","$(inherited)");
 				INSTALL_PATH = "";
 				LIBRARY_STYLE = STATIC;
 				ONLY_ACTIVE_ARCH = YES;
@@ -642,33 +395,13 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ext_convertUTF;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Debug;
 		};
-		A608247707E643B8B641AF72 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		EB5F048BC26E42CCA1DBFBC9 /* Release */ = {
+		080687546ACF4026A239DA2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -682,60 +415,327 @@ fi
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		48E42E868ED849D387D126FC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		59721EB9C45749E091541919 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/build";
+			};
+			name = MinSizeRel;
+		};
+		5FE27E1A76A44A36B8892531 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		64215B21EC914AAD97A5B008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6A25F4562FD24D26B91E23C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/build";
+			};
+			name = Release;
+		};
+		807D767ACCAC41C7916D3FF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
+		98322D894D3540329331CC95 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AABE6391F64F4AE285C68F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BACC2109B5E14CA387DB3D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/build";
+			};
+			name = Debug;
+		};
+		D6E59541D94F4361B283EB42 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F43EEE04209F441CA8B86183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F744DA4F031542BD80630704 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/ConvertUTF/.","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FBCD0FC4F98D495195119671 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FF614B826EEF40BEA992D894 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/ConvertUTF/build";
+			};
+			name = RelWithDebInfo;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29E63E2846EA42E6B1F8793F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		0A861C83C8354AC3B5DFCB60 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				501D312AEDC045A7AE20D25D /* Debug */,
-				EB5F048BC26E42CCA1DBFBC9 /* Release */,
-				0BB0C02EA26F473EA33B89CD /* MinSizeRel */,
-				95B0FBB3C5A041D0BF184E2D /* RelWithDebInfo */,
+				014B3992CBA34E8B91ECF189 /* Debug */,
+				F43EEE04209F441CA8B86183 /* Release */,
+				5FE27E1A76A44A36B8892531 /* MinSizeRel */,
+				F744DA4F031542BD80630704 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		3FB2CCB148964D4093838F17 /* Build configuration list for PBXProject "convertUTF" */ = {
+		73AA623390974E0A868F3453 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43B3CCB330A6442086C1ECFA /* Debug */,
-				5D2A96099BC349CEB336F4FD /* Release */,
-				550B7BEC45B04FF5B698700B /* MinSizeRel */,
-				33BBE59C23A14C8A8C2F2574 /* RelWithDebInfo */,
+				64215B21EC914AAD97A5B008 /* Debug */,
+				AABE6391F64F4AE285C68F83 /* Release */,
+				48E42E868ED849D387D126FC /* MinSizeRel */,
+				D6E59541D94F4361B283EB42 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		607F6C0307A74BEBB1EB29F1 /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+		77AFF0B2F703439EA4BDEDB7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A06D60741B924756B43A587A /* Debug */,
-				78C924F61A424B4C81A400DD /* Release */,
-				818E2D5BECBB48DA8036BEF9 /* MinSizeRel */,
-				7C95E9BF662549C5BF0A3F6B /* RelWithDebInfo */,
+				080687546ACF4026A239DA2F /* Debug */,
+				807D767ACCAC41C7916D3FF3 /* Release */,
+				98322D894D3540329331CC95 /* MinSizeRel */,
+				FBCD0FC4F98D495195119671 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		7E6DD0DD0C0544749D836A0E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		EF0B060023F943BDB80FC0F6 /* Build configuration list for PBXProject "convertUTF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21FFE6576B814A229803892B /* Debug */,
-				28A10624F6F84DD490E9BF84 /* Release */,
-				A608247707E643B8B641AF72 /* MinSizeRel */,
-				198141109D704B33B97805F1 /* RelWithDebInfo */,
+				BACC2109B5E14CA387DB3D83 /* Debug */,
+				6A25F4562FD24D26B91E23C9 /* Release */,
+				59721EB9C45749E091541919 /* MinSizeRel */,
+				FF614B826EEF40BEA992D894 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 61892DB3200248199620D8B4 /* Project object */;
+	rootObject = 106535C6A0C3424FBB5A2B70 /* Project object */;
 }

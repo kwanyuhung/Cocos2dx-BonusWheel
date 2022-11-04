@@ -7,180 +7,147 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		1554DD5A5F4A46B48C11ACF8 /* ALL_BUILD */ = {
+		2998BEC1B6B94480A5B25F16 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 751A6280F0B34D0E8183E365 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 0311E80AC4D6446EA6DDF702 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				19D0BA74F80786399EC6C5BF /* Generate CMakeFiles/ALL_BUILD */,
-			);
-			dependencies = (
-				FDA151095DDC468A97C61114 /* PBXTargetDependency */,
-			);
-			name = ALL_BUILD;
-			productName = ALL_BUILD;
-		};
-		7858C05E2DD646758CD80326 /* ZERO_CHECK */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = DE129FB59AB348F985B08107 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
-			buildPhases = (
-				9984660FD03884536C5B5F3F /* Generate CMakeFiles/ZERO_CHECK */,
+				625167B0892D6554C42D0C34 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
+		762A4BA8E8C049E48AA2C717 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C4298B58A45B4D33856E02DE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C535079562D0C616C5DF436A /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				D28943EE07214587A3EA758D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildStyle section */
-		3A4E3D3A8DA343678E7F9477 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		C4033BF18FAD462FB2D2148E /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		DBABF1844A204F9F9185F4DA /* Debug */ = {
+		1BD8C94836194050B555D14D /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		DCFA26C2DAB3492C994B41E1 /* Release */ = {
+		D4B0546FA1974B368FE72697 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E60458E188644193874EE343 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		EC9A4B414E334AFDBBCD05CE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		E6ED21374B4A4D8BB102602F /* PBXContainerItemProxy */ = {
+		E5750EC96F594605ABDA7284 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3F5993E94F304F33B2AE6C28 /* Project object */;
+			containerPortal = CADE941483A14699A7F9F327 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7858C05E2DD646758CD80326;
+			remoteGlobalIDString = 2998BEC1B6B94480A5B25F16;
 			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9398A2E46A2D4327BD0D6079 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/freetype2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3117D94638C746AEBC2DA50C /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/freetype2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		1A03EFB89E994B8BB50F9B1A /* ALL_BUILD */ = {
+		1652D794E7B3487B88BEBD2A = {
 			isa = PBXGroup;
 			children = (
-				CB8B01B1B3794F43893B873B /* CMake Rules */,
-				9398A2E46A2D4327BD0D6079 /* /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/freetype2/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		4EC75377A0AD4E76B1CC32B1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		98105729B5A44571992D51D0 = {
-			isa = PBXGroup;
-			children = (
-				1A03EFB89E994B8BB50F9B1A /* ALL_BUILD */,
-				4EC75377A0AD4E76B1CC32B1 /* Products */,
-				CF26200432B84219AB57538E /* Frameworks */,
+				DBDF671B0B3245C7871070C3 /* ALL_BUILD */,
+				27FCF616A10644929528270D /* Products */,
+				1E4923AB7C704565B2F2066E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		CB8B01B1B3794F43893B873B /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		CF26200432B84219AB57538E /* Frameworks */ = {
+		1E4923AB7C704565B2F2066E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		27FCF616A10644929528270D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C87386FD37524152BB3D317E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DBDF671B0B3245C7871070C3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C87386FD37524152BB3D317E /* CMake Rules */,
+				3117D94638C746AEBC2DA50C /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/freetype2/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		3F5993E94F304F33B2AE6C28 /* Project object */ = {
+		CADE941483A14699A7F9F327 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1410;
 			};
-			buildConfigurationList = 954EB436E11C4A3495FCDC43 /* Build configuration list for PBXProject "freetype" */;
+			buildConfigurationList = CCBC94429D54478A8874AE93 /* Build configuration list for PBXProject "freetype" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				DBABF1844A204F9F9185F4DA /* Debug */,
-				DCFA26C2DAB3492C994B41E1 /* Release */,
-				C4033BF18FAD462FB2D2148E /* MinSizeRel */,
-				3A4E3D3A8DA343678E7F9477 /* RelWithDebInfo */,
+				1BD8C94836194050B555D14D /* Debug */,
+				E60458E188644193874EE343 /* Release */,
+				D4B0546FA1974B368FE72697 /* MinSizeRel */,
+				EC9A4B414E334AFDBBCD05CE /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 98105729B5A44571992D51D0;
-			projectDirPath = /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/freetype2;
+			mainGroup = 1652D794E7B3487B88BEBD2A;
+			projectDirPath = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/freetype2";
 			projectRoot = "";
 			targets = (
-				1554DD5A5F4A46B48C11ACF8 /* ALL_BUILD */,
-				7858C05E2DD646758CD80326 /* ZERO_CHECK */,
+				762A4BA8E8C049E48AA2C717 /* ALL_BUILD */,
+				2998BEC1B6B94480A5B25F16 /* ZERO_CHECK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		19D0BA74F80786399EC6C5BF /* Generate CMakeFiles/ALL_BUILD */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Generate CMakeFiles/ALL_BUILD";
-			outputPaths = (
-/Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeFiles/ALL_BUILD			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "set -e
-if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
-  echo Build\\ all\\ projects
-fi
-if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
-  echo Build\\ all\\ projects
-fi
-";
-			showEnvVarsInLog = 0;
-		};
 		3C0110FC8322DE7E50886E21 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,7 +163,7 @@ fi
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		9984660FD03884536C5B5F3F /* Generate CMakeFiles/ZERO_CHECK */ = {
+		625167B0892D6554C42D0C34 /* Generate CMakeFiles/ZERO_CHECK */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -206,25 +173,25 @@ exit 0";
 			);
 			name = "Generate CMakeFiles/ZERO_CHECK";
 			outputPaths = (
-/Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeFiles/ZERO_CHECK			);
+"/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeFiles/ZERO_CHECK"			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e
 if test \"$CONFIGURATION\" = \"Debug\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
-  make -f /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeScripts/ReRunCMake.make
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
+  make -f /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"Release\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
-  make -f /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeScripts/ReRunCMake.make
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
+  make -f /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
-  make -f /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeScripts/ReRunCMake.make
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
+  make -f /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeScripts/ReRunCMake.make
 fi
 if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
-  cd /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
-  make -f /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeScripts/ReRunCMake.make
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
+  make -f /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeScripts/ReRunCMake.make
 fi
 ";
 			showEnvVarsInLog = 0;
@@ -244,28 +211,51 @@ fi
 exit 0";
 			showEnvVarsInLog = 0;
 		};
+		C535079562D0C616C5DF436A /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FDA151095DDC468A97C61114 /* PBXTargetDependency */ = {
+		D28943EE07214587A3EA758D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7858C05E2DD646758CD80326 /* ZERO_CHECK */;
-			targetProxy = E6ED21374B4A4D8BB102602F /* PBXContainerItemProxy */;
+			target = 2998BEC1B6B94480A5B25F16 /* ZERO_CHECK */;
+			targetProxy = E5750EC96F594605ABDA7284 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C279E0FD18445879C1E1164 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/build;
-			};
-			name = RelWithDebInfo;
-		};
-		30A3C4CB29DF4CAA94A3C84B /* MinSizeRel */ = {
+		112A335402C74DF6861E6F18 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -277,35 +267,15 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		63A51A8ED76E45AC873A5928 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		6DAEA6C71B804F7F8534BD91 /* Debug */ = {
+		13B1FFAB05774DFE8DCEAE4D /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -317,25 +287,25 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		80A63B7330CA4200AF5CC85D /* Release */ = {
+		42559FCAE38C498CA4835A6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/build;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/build";
 			};
-			name = Release;
+			name = Debug;
 		};
-		9A584B3ECCBE4C57A7A8F6C6 /* RelWithDebInfo */ = {
+		5F5B65183D104ED68A6961E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -349,63 +319,73 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		777EE4BD538D4A6685B03350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/build";
+			};
+			name = Release;
+		};
+		7BA9EB75CAD04177A706894D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9B600FC3B8644B3F9725F035 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		A997FB8AF7424DD9BD8F7BFD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		D9CF012100774B2AB95C576E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		DB15B439E8774296A1C5321C /* Debug */ = {
+		A267F53BC2AF4D6D892FD84D /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/build;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/build";
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		E886B5B5CB7E4694B8CA6D79 /* Release */ = {
+		C2137673EF2A484BA932C050 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -419,13 +399,13 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = Release;
 		};
-		E925AD48448F4184BEB7DCB9 /* MinSizeRel */ = {
+		E8810630D6F74698ADECEB62 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -439,59 +419,79 @@ exit 0";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		F416A58732024733B2CF47AC /* MinSizeRel */ = {
+		EDA5DB428B104F5F9863AF8B /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SYMROOT = /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/build;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2/build";
 			};
-			name = MinSizeRel;
+			name = RelWithDebInfo;
+		};
+		FC3F10200FFB4992BB84184A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/freetype2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		751A6280F0B34D0E8183E365 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		0311E80AC4D6446EA6DDF702 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A997FB8AF7424DD9BD8F7BFD /* Debug */,
-				D9CF012100774B2AB95C576E /* Release */,
-				30A3C4CB29DF4CAA94A3C84B /* MinSizeRel */,
-				63A51A8ED76E45AC873A5928 /* RelWithDebInfo */,
+				5F5B65183D104ED68A6961E0 /* Debug */,
+				C2137673EF2A484BA932C050 /* Release */,
+				E8810630D6F74698ADECEB62 /* MinSizeRel */,
+				112A335402C74DF6861E6F18 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		954EB436E11C4A3495FCDC43 /* Build configuration list for PBXProject "freetype" */ = {
+		C4298B58A45B4D33856E02DE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB15B439E8774296A1C5321C /* Debug */,
-				80A63B7330CA4200AF5CC85D /* Release */,
-				F416A58732024733B2CF47AC /* MinSizeRel */,
-				1C279E0FD18445879C1E1164 /* RelWithDebInfo */,
+				FC3F10200FFB4992BB84184A /* Debug */,
+				7BA9EB75CAD04177A706894D /* Release */,
+				13B1FFAB05774DFE8DCEAE4D /* MinSizeRel */,
+				9B600FC3B8644B3F9725F035 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		DE129FB59AB348F985B08107 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		CCBC94429D54478A8874AE93 /* Build configuration list for PBXProject "freetype" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DAEA6C71B804F7F8534BD91 /* Debug */,
-				E886B5B5CB7E4694B8CA6D79 /* Release */,
-				E925AD48448F4184BEB7DCB9 /* MinSizeRel */,
-				9A584B3ECCBE4C57A7A8F6C6 /* RelWithDebInfo */,
+				42559FCAE38C498CA4835A6B /* Debug */,
+				777EE4BD538D4A6685B03350 /* Release */,
+				A267F53BC2AF4D6D892FD84D /* MinSizeRel */,
+				EDA5DB428B104F5F9863AF8B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F5993E94F304F33B2AE6C28 /* Project object */;
+	rootObject = CADE941483A14699A7F9F327 /* Project object */;
 }

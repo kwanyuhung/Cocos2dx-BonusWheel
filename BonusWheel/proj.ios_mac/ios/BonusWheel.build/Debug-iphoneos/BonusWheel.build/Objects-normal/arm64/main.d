@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/main.m
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/main.m

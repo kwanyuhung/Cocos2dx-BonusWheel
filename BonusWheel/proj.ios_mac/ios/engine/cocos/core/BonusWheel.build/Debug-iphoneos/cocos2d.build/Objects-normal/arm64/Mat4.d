@@ -1,23 +1,23 @@
 dependencies: \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/math/Mat4.cpp \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/math/Mat4.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/base/ccMacros.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/base/CCConsole.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/base/CCRef.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/platform/CCPlatformMacros.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/base/ccConfig.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/platform/CCPlatformConfig.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/platform/CCPlatformDefine.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/platform/ios/CCPlatformDefine-ios.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/platform/CCStdC.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/platform/ios/CCStdC-ios.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/base/ccRandom.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/math/Vec3.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/math/CCMathBase.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/math/Vec3.inl \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/math/Vec4.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/math/Vec4.inl \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/math/Mat4.inl \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/math/Quaternion.h \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/math/Quaternion.inl \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/cocos/math/MathUtil.h
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/math/Mat4.cpp \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/math/Mat4.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/base/ccMacros.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/base/CCConsole.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/base/CCRef.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/platform/CCPlatformMacros.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/base/ccConfig.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/platform/CCPlatformConfig.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/platform/CCPlatformDefine.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/platform/ios/CCPlatformDefine-ios.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/platform/CCStdC.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/platform/ios/CCStdC-ios.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/base/ccRandom.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/math/Vec3.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/math/CCMathBase.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/math/Vec3.inl \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/math/Vec4.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/math/Vec4.inl \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/math/Mat4.inl \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/math/Quaternion.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/math/Quaternion.inl \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/math/MathUtil.h

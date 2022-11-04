@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/xxtea/xxtea.cpp \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/xxtea/xxtea.h
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/xxtea/xxtea.cpp \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/xxtea/xxtea.h

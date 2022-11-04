@@ -5,8 +5,8 @@ empty:=
 space:= $(empty) $(empty)
 spaceplus:= $(empty)\ $(empty)
 
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/cmake/CocosExternalConfig.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/jpeg/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/cmake/CocosExternalConfig.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/jpeg/CMakeLists.txt))
 
-/Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/Applications/CMake.app/Contents/bin/cmake -H/Users/kwanyuhung/Desktop/BonusWheel -B/Users/kwanyuhung/Desktop/BonusWheel/proj.ios_mac/ios
+/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/Applications/CMake.app/Contents/bin/cmake -H/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel -B/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios

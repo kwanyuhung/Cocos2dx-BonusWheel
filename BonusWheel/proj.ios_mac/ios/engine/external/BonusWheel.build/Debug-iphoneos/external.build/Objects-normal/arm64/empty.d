@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/kwanyuhung/Desktop/BonusWheel/cocos2d/external/empty.cpp
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/empty.cpp
