@@ -1,0 +1,49 @@
+Target dependency graph (14 targets)
+ext_recast in BonusWheel, no dependencies
+ext_tinyxml2 in BonusWheel, no dependencies
+ext_xxhash in BonusWheel, no dependencies
+ext_xxtea in BonusWheel, no dependencies
+ext_clipper in BonusWheel, no dependencies
+ext_edtaa3func in BonusWheel, no dependencies
+ext_convertUTF in BonusWheel, no dependencies
+ext_poly2tri in BonusWheel, no dependencies
+ext_md5 in BonusWheel, no dependencies
+ext_unzip in BonusWheel, no dependencies
+external in BonusWheel, depends on:
+ext_recast in BonusWheel (explicit)
+ext_tinyxml2 in BonusWheel (explicit)
+ext_xxhash in BonusWheel (explicit)
+ext_xxtea in BonusWheel (explicit)
+ext_clipper in BonusWheel (explicit)
+ext_edtaa3func in BonusWheel (explicit)
+ext_convertUTF in BonusWheel (explicit)
+ext_poly2tri in BonusWheel (explicit)
+ext_md5 in BonusWheel (explicit)
+ext_unzip in BonusWheel (explicit)
+cocos2d in BonusWheel, depends on:
+external in BonusWheel (explicit)
+ext_recast in BonusWheel (explicit)
+ext_tinyxml2 in BonusWheel (explicit)
+ext_xxhash in BonusWheel (explicit)
+ext_xxtea in BonusWheel (explicit)
+ext_clipper in BonusWheel (explicit)
+ext_edtaa3func in BonusWheel (explicit)
+ext_convertUTF in BonusWheel (explicit)
+ext_poly2tri in BonusWheel (explicit)
+ext_md5 in BonusWheel (explicit)
+ext_unzip in BonusWheel (explicit)
+ZERO_CHECK in BonusWheel, no dependencies
+BonusWheel in BonusWheel, depends on:
+cocos2d in BonusWheel (explicit)
+external in BonusWheel (explicit)
+ext_recast in BonusWheel (explicit)
+ext_tinyxml2 in BonusWheel (explicit)
+ext_xxhash in BonusWheel (explicit)
+ext_xxtea in BonusWheel (explicit)
+ext_clipper in BonusWheel (explicit)
+ext_edtaa3func in BonusWheel (explicit)
+ext_convertUTF in BonusWheel (explicit)
+ext_poly2tri in BonusWheel (explicit)
+ext_md5 in BonusWheel (explicit)
+ext_unzip in BonusWheel (explicit)
+ZERO_CHECK in BonusWheel (explicit)
