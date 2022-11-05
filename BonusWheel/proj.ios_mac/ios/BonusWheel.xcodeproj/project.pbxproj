@@ -219,6 +219,9 @@
 		4B785EC229158899004588D9 /* wheel_border.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B785EBA2915861C004588D9 /* wheel_border.png */; };
 		4B785EC329158899004588D9 /* wheel_sections_8.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B785EB329158619004588D9 /* wheel_sections_8.png */; };
 		4B785EC4291588B2004588D9 /* BonusWheelScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B785EB1291585D2004588D9 /* BonusWheelScene.cpp */; };
+		4B785EC829170148004588D9 /* error.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B785EC729170136004588D9 /* error.png */; };
+		4B785ECA291703FB004588D9 /* menu.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B785EC9291703E1004588D9 /* menu.png */; };
+		4B785ED02917103F004588D9 /* GameData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B785ECE2917103F004588D9 /* GameData.cpp */; };
 		4BECCD019F5D4666BE8A8A7E /* AudioDecoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3E47DB005F92480DA6061C26 /* AudioDecoder.mm */; };
 		4C34D22639B84953988473F5 /* CCPURender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7E3D3708847B6A2159D1B /* CCPURender.cpp */; };
 		4C6BF764C60F46AD897B44E0 /* ccUTF8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B530F9DC7144F399880BADE /* ccUTF8.cpp */; };
@@ -1004,6 +1007,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
+				4B785ECA291703FB004588D9 /* menu.png in CopyFiles */,
+				4B785EC829170148004588D9 /* error.png in CopyFiles */,
 				4B785EBB29158898004588D9 /* brush.png in CopyFiles */,
 				4B785EBC29158898004588D9 /* coin.png in CopyFiles */,
 				4B785EBD29158898004588D9 /* gem.png in CopyFiles */,
@@ -1407,6 +1412,12 @@
 		4B785EB82915861B004588D9 /* spin_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spin_button.png; path = Resources/spin_button.png; sourceTree = SOURCE_ROOT; };
 		4B785EB92915861B004588D9 /* wheel_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wheel_arrow.png; path = Resources/wheel_arrow.png; sourceTree = SOURCE_ROOT; };
 		4B785EBA2915861C004588D9 /* wheel_border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wheel_border.png; path = Resources/wheel_border.png; sourceTree = SOURCE_ROOT; };
+		4B785EC52916C734004588D9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4B785EC62916C748004588D9 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		4B785EC729170136004588D9 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = Resources/error.png; sourceTree = SOURCE_ROOT; };
+		4B785EC9291703E1004588D9 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = Resources/menu.png; sourceTree = SOURCE_ROOT; };
+		4B785ECE2917103F004588D9 /* GameData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameData.cpp; path = Classes/GameData.cpp; sourceTree = SOURCE_ROOT; };
+		4B785ED12917108B004588D9 /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameData.h; path = Classes/GameData.h; sourceTree = SOURCE_ROOT; };
 		4B838B4BF33E4023BEE4EB98 /* CCPUTranslateManager.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CCPUTranslateManager.h; path = cocos2d/extensions/Particle3D/PU/CCPUTranslateManager.h; sourceTree = SOURCE_ROOT; };
 		4B8C86F49DCC46EB8C5964B4 /* CCRay.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCRay.cpp; path = cocos2d/cocos/3d/CCRay.cpp; sourceTree = SOURCE_ROOT; };
 		4BC33EFEFAB044D5A6B13C37 /* CCPUDoExpireEventHandlerTranslator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CCPUDoExpireEventHandlerTranslator.cpp; path = cocos2d/extensions/Particle3D/PU/CCPUDoExpireEventHandlerTranslator.cpp; sourceTree = SOURCE_ROOT; };
@@ -2655,6 +2666,8 @@
 		20D7C3012A914DC2A9B7B3CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B785EC62916C748004588D9 /* libc++.1.tbd */,
+				4B785EC52916C734004588D9 /* libc++.tbd */,
 				B99B945461044E96B2C80BF6 /* UIKit.framework */,
 				D2CDC32CA591426E8A63EDA5 /* OpenGLES.framework */,
 				DCCC73679A6B42BB9B4405EA /* CoreMotion.framework */,
@@ -3331,6 +3344,8 @@
 		67CA92CDCFA24ED4B9B51BDF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4B785ED12917108B004588D9 /* GameData.h */,
+				4B785ECE2917103F004588D9 /* GameData.cpp */,
 				4B785EB1291585D2004588D9 /* BonusWheelScene.cpp */,
 				4B785EB0291585D2004588D9 /* BonusWheelScene.h */,
 				FE7A2087E4E24BBA88B96A84 /* AppDelegate.cpp */,
@@ -4012,6 +4027,8 @@
 		D62C1F878A804AB5BA620DEB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4B785EC9291703E1004588D9 /* menu.png */,
+				4B785EC729170136004588D9 /* error.png */,
 				4B785EB42915861A004588D9 /* brush.png */,
 				4B785EB229158619004588D9 /* coin.png */,
 				4B785EB72915861B004588D9 /* gem.png */,
@@ -5457,6 +5474,7 @@
 				0DE5799D57D44B81AEDB4398 /* AppDelegate.cpp in Sources */,
 				ADDC51CFEBEF49D1AEE8D085 /* HelloWorldScene.cpp in Sources */,
 				1200ACA40CB74B1DBB1B5510 /* AppController.mm in Sources */,
+				4B785ED02917103F004588D9 /* GameData.cpp in Sources */,
 				0D0172C342594EE390FB8B3C /* RootViewController.mm in Sources */,
 				F4273E644C94484C9B644937 /* main.m in Sources */,
 			);

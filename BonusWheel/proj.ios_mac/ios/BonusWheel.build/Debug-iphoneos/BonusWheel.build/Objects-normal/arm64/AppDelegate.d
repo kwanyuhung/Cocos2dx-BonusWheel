@@ -204,4 +204,38 @@ dependencies: \
   /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/3d/CCTerrain.h \
   /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/3d/CCVertexAttribBinding.h \
   /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/Classes/HelloWorldScene.h \
-  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/Classes/BonusWheelScene.h
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/Classes/BonusWheelScene.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/CocosGUI.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIWidget.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UILayoutParameter.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/GUIExport.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/GUIDefine.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/base/ObjectFactory.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UILayout.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIButton.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UICheckBox.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIAbstractCheckButton.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIRadioButton.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIImageView.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIText.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UITextAtlas.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UILoadingBar.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIScrollView.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIListView.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UISlider.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UITextField.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UITextBMFont.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIPageView.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIHelper.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIRichText.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIHBox.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIVBox.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIRelativeBox.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIVideoPlayer.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIWebView/UIWebView.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIScale9Sprite.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UIEditBox/UIEditBox.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UILayoutComponent.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/ui/UITabControl.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/cocos/editor-support/cocostudio/CocosStudioExtension.h \
+  /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/Classes/GameData.h
