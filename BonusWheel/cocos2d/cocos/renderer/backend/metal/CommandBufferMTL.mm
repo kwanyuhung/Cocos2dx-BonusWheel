@@ -401,6 +401,7 @@ void CommandBufferMTL::prepareDrawing() const
     
     if (_mtlDepthStencilState)
     {
+
         [_mtlRenderEncoder setDepthStencilState:_mtlDepthStencilState];
         [_mtlRenderEncoder setStencilFrontReferenceValue:_stencilReferenceValueFront
                                       backReferenceValue:_stencilReferenceValueBack];

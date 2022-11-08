@@ -30,5 +30,6 @@ const vector<GameData::BonusWheel> BonusWheelData = {
     {8,GameData::reward_hammer,1,20},
     
     //extent test
-//    {9,GameData::reward_hammer,1,20}
+    {9,GameData::reward_hammer,90,20},
+    {10,GameData::reward_coin,900,5}
 };

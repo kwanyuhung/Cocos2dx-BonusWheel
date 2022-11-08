@@ -27,18 +27,28 @@ public:
     
     int randomReward();
     
+    //debug
+    Node* debugMenu;
+    ListView* debugView;
+    void spinSimulate(int count);
+    
     void spin();
+    void claimReward(int reaward);
     
-    int screenMiddleX;
-    int screenMiddleY;
+    float screenMiddleX;
+    float screenMiddleY;
     
-    Sprite* wheel;
+    Node* wheelNode;
+    Sprite* wheelBoard;
     Button* playOnBtn;
     Button* claimBtn;
     
-    
+    void refreshScreen();
+        
     string getRewardIconPath(BonusRewardType type);
     
+    Node* createRect(Size size);
+    Sprite* createIconImage(BonusWheel data);
     Sprite* createImage(string name);
     Label* addButtonText(Button* btn, string text);
     

@@ -24,6 +24,7 @@ namespace GameData{
         reward_hammer,
         reward_gem,
         reward_coin,
+        reward_None
     };
 
     struct BonusWheel{
@@ -34,6 +35,7 @@ namespace GameData{
     };
 };
 
+const int BOARD_ICON_RADIUS = 80;
 const int DEBUG_SPIN_TIME = 1000;
 extern const vector<string> BonusWheelImage;
 extern const vector<GameData::BonusWheel> BonusWheelData;
