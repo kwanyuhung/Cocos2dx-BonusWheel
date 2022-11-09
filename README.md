@@ -16,6 +16,14 @@ By tapping the "arrow.icon" in screen
 
 # Debug menu
 
+Clicking the screen menu, will show a new result included 
+
+Data Percentages (Black)
+
+Total item Count after spin 1000 (Green)
+
+The percentage of spin 1000 result (Yellow)
+
 <img width="421" alt="螢幕截圖 2022-11-08 下午10 53 54" src="https://user-images.githubusercontent.com/13161202/200734551-f99a244d-72b6-416d-a4b0-e6fc22e62a6f.png">
 
 
