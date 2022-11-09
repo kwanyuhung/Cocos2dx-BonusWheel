@@ -16,7 +16,7 @@ By tapping the "arrow.icon" in screen
 
 # Debug menu
 
-Clicking the screen menu, will show a new result included 
+Clicking the spin 1000, will show a new result included 
 
 Data Percentages (Black)
 
