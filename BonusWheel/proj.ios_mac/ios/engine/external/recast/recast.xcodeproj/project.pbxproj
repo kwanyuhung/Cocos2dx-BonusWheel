@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		2998BEC1B6B94480A5B25F16 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C252A37644F840FD89E5E490 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 40C2DF38C2B443B1BD36463B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				C2DF9125854497F1DCE13C67 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,13 +20,13 @@
 		};
 		762A4BA8E8C049E48AA2C717 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 8B455AE2C8644CDAA4B85F32 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 2CA80A8584664323829A61E2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				A8FFC38C1906A49F338B0E9F /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				A884D3547F5A4636BF33BDDD /* PBXTargetDependency */,
-				11F451FB6A324ED9BDD74A14 /* PBXTargetDependency */,
+				2D794CA983394D028A9B5B39 /* PBXTargetDependency */,
+				3B2740A259E94155A1C769EF /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,74 +34,74 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		25B8DD3F5F0743AAA9A48AB6 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = E17F1C46349A42D5AB49311D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/fastlz/fastlz.c */; };
-		54B0B584BAF3405EA1DAD777 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 6928213D9BB4403CB1CEB0F4 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
-		64345046A50144CAA96476D9 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = B446AE25803C4AF3A8194811 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
-		67E45DC0D3F84E7C9727394F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = F41A648B37BC4168A528628F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
-		6B9A13C6C1394A719CB8F7C7 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 8EBE7D5C86F942D9BE0F4EAC /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
-		6DFC6353C5C443CBAD004373 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = 071FEB68622943D480D6F0C2 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
-		8A99FE85280E484BA0E59686 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 57072F89973941BB8771C45D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNode.cpp */; };
-		91339320B5BD4C6D9EA249FE /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = F47603D44215408CACFAE23F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
-		94B9BB1CD0E44D4E9B1CD666 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 8D9DA7A433844C528DF31E60 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
-		9ADBEBF3BE584681AD115B9D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = 3876AE0216E448A48C319713 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
-		A4321632150946D28064F24D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = 7359FB2402CF429FAA5146CD /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
-		D0CBA9DF1553491CA7452394 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = 4373247F658841C78BC84D92 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
-		D9B4F9D43D6E48A8A5792755 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C7514683D10D44CE81CBA6EE /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */; };
-		DD3E8DFBEB6F4B568AEC1093 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 7CEC268ED7EC4681AC7B0970 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
-		EE4EDB52E88D4391B5B81160 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = C18A1BAA4E8F47E0ABE819E1 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
-		EFEE850574BA4983BD778F03 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 77937E8A06FD4CBD8251BA71 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
-		F29E2946F38A454BB777C11A /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = 60C1B72269EA48E4AE4A1479 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
-		F303007292874EC88C383681 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = B2772D2F74CD4F7292153B1B /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
-		F85BC561FC3746CB969D10D0 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = BCC48CF81E904D3994FF5E61 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		0C4AF9D2354C42219972280F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = 4976BB8C1A7644A494FA504A /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		14C6EE27744F4B1C9A50BC65 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 14EBC7F2C27D441DACCADA3D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
+		1BA9B9FA922B4EDC829451A0 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = F8F1D56061F84B0B8CDF944E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		25C6B306CA7449F299DDE433 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 97BCE893C6974FB6BD90008D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		2F5A3C767628448184CBEF6E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = 2B3FF04A25DA434E83C5E050 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		35AE0B29D27848558434D04F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = 4A9DBDB44AE44B15906FDC1F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		719C8092833F4AAF961543DB /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = A2031D7578E644578F5CF5BD /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		8274F3039FBE441DB5D1747F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = BAEEE5D3D71245FCBEA7CEA7 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		84FA028A67E2417DADD0801E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 3A756013B02D48CF80FF30E0 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		8C1B12E98022405EBFC236B9 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = FF852AACCD0D4B80BE4D3159 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		A7E3C53E59C04D4E8CBE188A /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 45CCACFC721D4EF2A34689EB /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		AAA65FB0FA0647EDB9D0888E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = D14D76E78A5A4E2CBBB12A9F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		BC5E47B46557410C8A10110D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = 5EA7158C7B1D4776B121A2B2 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/fastlz/fastlz.c */; };
+		BDB14205B3EB4610B6476E1C /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = 33ECCDF0627B495D81DB083E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		DEEE9390EB4B40DAB73B84D5 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = 95BA5AAA9AEF4CBFAF4C4D6C /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		E2952E55307C45679556A81E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 72F71E54BB20432BA82A6464 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		E41BF3F5DC2F4B779C031043 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E19A625189AB402799CA0A00 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */; };
+		EF7FCF83D698489EB3E40A21 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = D51741FD34014AFB8D665527 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		F3615B06786747BABBD581CB /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = F6DC99EBBA794042B571FFDE /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		53394DBBF159473BB4EDF063 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		7F24D9E2EDDF41C388E46897 /* Debug */ = {
+		060F80C899DD4911B56AADE5 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		8A04FFD724A44DD0BB41C2B6 /* MinSizeRel */ = {
+		1AD8E52AF07643E68A7766A4 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		BA3FEA574E9540F2AE719225 /* Release */ = {
+		B14A65E898B84BD4A3C5475C /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
+		E46A83951BA94FA8A8236AE5 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		7BA262BFB7DE44BCADD88BC9 /* PBXContainerItemProxy */ = {
+		555EFBA389AE455C937F948A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D25D3C582B6947B69E93867D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E201E8BDE69044519D83D563;
 			remoteInfo = ext_recast;
 		};
-		D61BC6D38DE341519FD1ACAA /* PBXContainerItemProxy */ = {
+		B9CEB28E5CFD4803915DE3B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D25D3C582B6947B69E93867D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2998BEC1B6B94480A5B25F16;
 			remoteInfo = ZERO_CHECK;
 		};
-		D916F6AC86ED47958362AB55 /* PBXContainerItemProxy */ = {
+		CF73A3D335A14E5E89841503 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D25D3C582B6947B69E93867D /* Project object */;
 			proxyType = 1;
@@ -111,31 +111,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		071FEB68622943D480D6F0C2 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
-		3472888A93484BBF9BF51885 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3876AE0216E448A48C319713 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
-		4373247F658841C78BC84D92 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
-		57072F89973941BB8771C45D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
-		60C1B72269EA48E4AE4A1479 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
-		6928213D9BB4403CB1CEB0F4 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
-		7359FB2402CF429FAA5146CD /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
-		77937E8A06FD4CBD8251BA71 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
-		7CEC268ED7EC4681AC7B0970 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
-		8D9DA7A433844C528DF31E60 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
-		8EBE7D5C86F942D9BE0F4EAC /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist"; sourceTree = "<absolute>"; };
-		AF4E9DA1C996476697EC77A9 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		B2772D2F74CD4F7292153B1B /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
-		B446AE25803C4AF3A8194811 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
-		BCC48CF81E904D3994FF5E61 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
-		C18A1BAA4E8F47E0ABE819E1 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
-		C7514683D10D44CE81CBA6EE /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		E17F1C46349A42D5AB49311D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
-		F41A648B37BC4168A528628F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
-		F47603D44215408CACFAE23F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		14EBC7F2C27D441DACCADA3D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist"; sourceTree = "<absolute>"; };
+		2B3FF04A25DA434E83C5E050 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		33ECCDF0627B495D81DB083E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		3A756013B02D48CF80FF30E0 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		45CCACFC721D4EF2A34689EB /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		4976BB8C1A7644A494FA504A /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+		4A9DBDB44AE44B15906FDC1F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		5EA7158C7B1D4776B121A2B2 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		72F71E54BB20432BA82A6464 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		95BA5AAA9AEF4CBFAF4C4D6C /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		97BCE893C6974FB6BD90008D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		A2031D7578E644578F5CF5BD /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		BAEEE5D3D71245FCBEA7CEA7 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		D14D76E78A5A4E2CBBB12A9F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		D20F6635FA2D4844AF999348 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D51741FD34014AFB8D665527 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		E19A625189AB402799CA0A00 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E9A8B87FE4BB4067A962A77A /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DC99EBBA794042B571FFDE /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		F8F1D56061F84B0B8CDF944E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		FF852AACCD0D4B80BE4D3159 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BC07A5E03BE41499652D58A /* Frameworks */ = {
+		747FD4B99B1140C5815A1C62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -145,95 +145,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B05B5A110D546049C40082E /* CMake Rules */ = {
+		165D4B3AF3DC4670BFE675DE /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		37432F9E05A2400988648779 = {
+		26C3A90D8B254B85806D97E3 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				81108FDA69DB4384896BC0B2 /* External */,
-				7E224A70A15D4903AEB1A591 /* ALL_BUILD */,
-				414F0C92440E4AF882BB1C74 /* Products */,
-				BD31012D451E4DC192CB201D /* Frameworks */,
+				FF852AACCD0D4B80BE4D3159 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				BAEEE5D3D71245FCBEA7CEA7 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				4A9DBDB44AE44B15906FDC1F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				D14D76E78A5A4E2CBBB12A9F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				95BA5AAA9AEF4CBFAF4C4D6C /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				72F71E54BB20432BA82A6464 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				F6DC99EBBA794042B571FFDE /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				45CCACFC721D4EF2A34689EB /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				4976BB8C1A7644A494FA504A /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				D51741FD34014AFB8D665527 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				F8F1D56061F84B0B8CDF944E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				3A756013B02D48CF80FF30E0 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				33ECCDF0627B495D81DB083E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				97BCE893C6974FB6BD90008D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				2B3FF04A25DA434E83C5E050 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				A2031D7578E644578F5CF5BD /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				5EA7158C7B1D4776B121A2B2 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/fastlz/fastlz.c */,
 			);
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
-		414F0C92440E4AF882BB1C74 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3472888A93484BBF9BF51885 /* ext_recast */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		4813202D4D444364AB1ED70C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8EBE7D5C86F942D9BE0F4EAC /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		7E224A70A15D4903AEB1A591 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				1B05B5A110D546049C40082E /* CMake Rules */,
-				AF4E9DA1C996476697EC77A9 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		81108FDA69DB4384896BC0B2 /* External */ = {
-			isa = PBXGroup;
-			children = (
-				86657442B93A43F9ADC87FEE /* ext_recast */,
-			);
-			name = External;
-			sourceTree = "<group>";
-		};
-		86657442B93A43F9ADC87FEE /* ext_recast */ = {
-			isa = PBXGroup;
-			children = (
-				C21B249259B64CB6A842E2BE /* Source Files */,
-				4813202D4D444364AB1ED70C /* Resources */,
-				C7514683D10D44CE81CBA6EE /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */,
-			);
-			name = ext_recast;
-			sourceTree = "<group>";
-		};
-		BD31012D451E4DC192CB201D /* Frameworks */ = {
+		339D6A3628AB483F831FBB8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C21B249259B64CB6A842E2BE /* Source Files */ = {
+		87C641BC2358420693373EE7 /* ext_recast */ = {
 			isa = PBXGroup;
 			children = (
-				6928213D9BB4403CB1CEB0F4 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
-				8D9DA7A433844C528DF31E60 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
-				F47603D44215408CACFAE23F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
-				C18A1BAA4E8F47E0ABE819E1 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourCommon.cpp */,
-				3876AE0216E448A48C319713 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
-				7CEC268ED7EC4681AC7B0970 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
-				4373247F658841C78BC84D92 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
-				57072F89973941BB8771C45D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNode.cpp */,
-				60C1B72269EA48E4AE4A1479 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
-				BCC48CF81E904D3994FF5E61 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
-				7359FB2402CF429FAA5146CD /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
-				B2772D2F74CD4F7292153B1B /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
-				F41A648B37BC4168A528628F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
-				77937E8A06FD4CBD8251BA71 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
-				071FEB68622943D480D6F0C2 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
-				B446AE25803C4AF3A8194811 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
-				E17F1C46349A42D5AB49311D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/fastlz/fastlz.c */,
+				26C3A90D8B254B85806D97E3 /* Source Files */,
+				D7CC2A1802AB4E94A337BFE5 /* Resources */,
+				E19A625189AB402799CA0A00 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */,
 			);
-			name = "Source Files";
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		8B9236325A3B46209B29C170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9A8B87FE4BB4067A962A77A /* ext_recast */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7CC2A1802AB4E94A337BFE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14EBC7F2C27D441DACCADA3D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D86DFBF23E4A4F899877418C /* External */ = {
+			isa = PBXGroup;
+			children = (
+				87C641BC2358420693373EE7 /* ext_recast */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		FF29817BC0004380B6127C35 = {
+			isa = PBXGroup;
+			children = (
+				D86DFBF23E4A4F899877418C /* External */,
+				FF821AE9D1B349CD92A6A966 /* ALL_BUILD */,
+				8B9236325A3B46209B29C170 /* Products */,
+				339D6A3628AB483F831FBB8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF821AE9D1B349CD92A6A966 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				165D4B3AF3DC4670BFE675DE /* CMake Rules */,
+				D20F6635FA2D4844AF999348 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,19 +241,19 @@
 /* Begin PBXNativeTarget section */
 		E201E8BDE69044519D83D563 /* ext_recast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D62430B730C4BABB67F7ED8 /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildConfigurationList = 541BC03B41744E0DB2FC58C1 /* Build configuration list for PBXNativeTarget "ext_recast" */;
 			buildPhases = (
-				9F5BA97651D14B5EA122A412 /* Sources */,
-				2BC07A5E03BE41499652D58A /* Frameworks */,
+				1165756FBBA0437696238D51 /* Sources */,
+				747FD4B99B1140C5815A1C62 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C8A673CC251C4CF5AB96C84E /* PBXTargetDependency */,
+				F243083323154658AD71257A /* PBXTargetDependency */,
 			);
 			name = ext_recast;
 			productName = ext_recast;
-			productReference = 3472888A93484BBF9BF51885 /* ext_recast */;
+			productReference = E9A8B87FE4BB4067A962A77A /* ext_recast */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -265,18 +265,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1410;
 			};
-			buildConfigurationList = 1A84D1FEEC3548FCAE5005F2 /* Build configuration list for PBXProject "recast" */;
+			buildConfigurationList = 84F42969333E401A8AEDADE6 /* Build configuration list for PBXProject "recast" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				7F24D9E2EDDF41C388E46897 /* Debug */,
-				BA3FEA574E9540F2AE719225 /* Release */,
-				8A04FFD724A44DD0BB41C2B6 /* MinSizeRel */,
-				53394DBBF159473BB4EDF063 /* RelWithDebInfo */,
+				060F80C899DD4911B56AADE5 /* Debug */,
+				B14A65E898B84BD4A3C5475C /* Release */,
+				1AD8E52AF07643E68A7766A4 /* MinSizeRel */,
+				E46A83951BA94FA8A8236AE5 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 37432F9E05A2400988648779;
+			mainGroup = FF29817BC0004380B6127C35;
 			projectDirPath = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast";
 			projectRoot = "";
 			targets = (
@@ -387,52 +387,52 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9F5BA97651D14B5EA122A412 /* Sources */ = {
+		1165756FBBA0437696238D51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54B0B584BAF3405EA1DAD777 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
-				94B9BB1CD0E44D4E9B1CD666 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
-				91339320B5BD4C6D9EA249FE /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
-				EE4EDB52E88D4391B5B81160 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourCommon.cpp */,
-				9ADBEBF3BE584681AD115B9D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
-				DD3E8DFBEB6F4B568AEC1093 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
-				D0CBA9DF1553491CA7452394 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
-				8A99FE85280E484BA0E59686 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNode.cpp */,
-				F29E2946F38A454BB777C11A /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
-				F85BC561FC3746CB969D10D0 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
-				A4321632150946D28064F24D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
-				F303007292874EC88C383681 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
-				67E45DC0D3F84E7C9727394F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
-				EFEE850574BA4983BD778F03 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
-				6DFC6353C5C443CBAD004373 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
-				64345046A50144CAA96476D9 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
-				25B8DD3F5F0743AAA9A48AB6 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/fastlz/fastlz.c */,
+				8C1B12E98022405EBFC236B9 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				8274F3039FBE441DB5D1747F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				35AE0B29D27848558434D04F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				AAA65FB0FA0647EDB9D0888E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				DEEE9390EB4B40DAB73B84D5 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				E2952E55307C45679556A81E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				F3615B06786747BABBD581CB /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				A7E3C53E59C04D4E8CBE188A /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				0C4AF9D2354C42219972280F /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				EF7FCF83D698489EB3E40A21 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				1BA9B9FA922B4EDC829451A0 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				84FA028A67E2417DADD0801E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				BDB14205B3EB4610B6476E1C /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				25C6B306CA7449F299DDE433 /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				2F5A3C767628448184CBEF6E /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				719C8092833F4AAF961543DB /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				BC5E47B46557410C8A10110D /* /Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/fastlz/fastlz.c */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		11F451FB6A324ED9BDD74A14 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2998BEC1B6B94480A5B25F16 /* ZERO_CHECK */;
-			targetProxy = D916F6AC86ED47958362AB55 /* PBXContainerItemProxy */;
-		};
-		A884D3547F5A4636BF33BDDD /* PBXTargetDependency */ = {
+		2D794CA983394D028A9B5B39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E201E8BDE69044519D83D563 /* ext_recast */;
-			targetProxy = 7BA262BFB7DE44BCADD88BC9 /* PBXContainerItemProxy */;
+			targetProxy = 555EFBA389AE455C937F948A /* PBXContainerItemProxy */;
 		};
-		C8A673CC251C4CF5AB96C84E /* PBXTargetDependency */ = {
+		3B2740A259E94155A1C769EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 2998BEC1B6B94480A5B25F16 /* ZERO_CHECK */;
-			targetProxy = D61BC6D38DE341519FD1ACAA /* PBXContainerItemProxy */;
+			targetProxy = CF73A3D335A14E5E89841503 /* PBXContainerItemProxy */;
+		};
+		F243083323154658AD71257A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2998BEC1B6B94480A5B25F16 /* ZERO_CHECK */;
+			targetProxy = B9CEB28E5CFD4803915DE3B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		14FB6230C09F4576B5936616 /* MinSizeRel */ = {
+		16974F08E6254388BCBB8CB4 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -461,116 +461,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		1D48131369C3455D909E8E1E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/lib/RelWithDebInfo";
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/..","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_recast;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		2D1BF5F3F9F24F3399AB497B /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/build";
-			};
-			name = RelWithDebInfo;
-		};
-		32F71A39BA8345B7A1927989 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		37A1E85D7DF5412DAEACB393 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/build";
-			};
-			name = Debug;
-		};
-		3A4A979C78474224BC960E0D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		4991E6A525D04894B8963E12 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		4B79B9662C7E42CE88F74817 /* RelWithDebInfo */ = {
+		18497591A69A4AEDA2C53D58 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -590,7 +481,17 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		5386BCB6EFDF4B94956A1C64 /* MinSizeRel */ = {
+		1B39751B28ED4EB08ABC43EF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/build";
+			};
+			name = MinSizeRel;
+		};
+		23CD6D5802154C7AA9D9D5F1 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -610,46 +511,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		6C5111F00C264ADA88635536 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/lib/Release";
-				ENABLE_BITCODE = NO;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = ("/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/..","$(inherited)");
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
-				OTHER_LIBTOOLFLAGS = ("");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ext_recast;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		94FE3AF811F54B60A2529CAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/build";
-			};
-			name = Release;
-		};
-		B00F3D82F3084FE1B57989D4 /* Release */ = {
+		3D37B723C0E542F7AFE6DC0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -662,26 +524,6 @@ fi
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		B6065A930CDF4F26B1D1D949 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
 				USE_HEADERMAP = NO;
@@ -689,27 +531,17 @@ fi
 			};
 			name = Debug;
 		};
-		B631626A82774121A416E6FC /* MinSizeRel */ = {
+		410381C4C5684DC69B4DAF3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/build";
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
-		D356FDDA55634B0E8E61606D /* Debug */ = {
+		7565E67C913749D18FA05AC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -738,7 +570,27 @@ fi
 			};
 			name = Debug;
 		};
-		F9540947321C479791784B31 /* MinSizeRel */ = {
+		79571FC2BDBB4E13825AFBD9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		79E62F8ACF1E4434998302E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -746,51 +598,199 @@ fi
 				SDKROOT = iphoneos;
 				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/build";
 			};
-			name = MinSizeRel;
+			name = Release;
+		};
+		C11B76F184264CA5A87ED91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DF142A3275A94A5AAD51C2E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E4D3ED66CD574465BEEBA114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/cocos2d/external/recast/..","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EB98BA256BA74BFA8A6AB478 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EF131A0F767B4D7FB05B9AB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F645EE9DA2B740B4BF89D246 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast/build";
+			};
+			name = RelWithDebInfo;
+		};
+		FCAA966BDE474A2DB3419A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kwanyuhung/Cocos2dx-BonusWheel/BonusWheel/proj.ios_mac/ios/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A84D1FEEC3548FCAE5005F2 /* Build configuration list for PBXProject "recast" */ = {
+		2CA80A8584664323829A61E2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				37A1E85D7DF5412DAEACB393 /* Debug */,
-				94FE3AF811F54B60A2529CAC /* Release */,
-				F9540947321C479791784B31 /* MinSizeRel */,
-				2D1BF5F3F9F24F3399AB497B /* RelWithDebInfo */,
+				C11B76F184264CA5A87ED91E /* Debug */,
+				EF131A0F767B4D7FB05B9AB4 /* Release */,
+				23CD6D5802154C7AA9D9D5F1 /* MinSizeRel */,
+				18497591A69A4AEDA2C53D58 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2D62430B730C4BABB67F7ED8 /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+		40C2DF38C2B443B1BD36463B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D356FDDA55634B0E8E61606D /* Debug */,
-				6C5111F00C264ADA88635536 /* Release */,
-				14FB6230C09F4576B5936616 /* MinSizeRel */,
-				1D48131369C3455D909E8E1E /* RelWithDebInfo */,
+				3D37B723C0E542F7AFE6DC0A /* Debug */,
+				FCAA966BDE474A2DB3419A5F /* Release */,
+				79571FC2BDBB4E13825AFBD9 /* MinSizeRel */,
+				EB98BA256BA74BFA8A6AB478 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8B455AE2C8644CDAA4B85F32 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		541BC03B41744E0DB2FC58C1 /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6065A930CDF4F26B1D1D949 /* Debug */,
-				4991E6A525D04894B8963E12 /* Release */,
-				5386BCB6EFDF4B94956A1C64 /* MinSizeRel */,
-				4B79B9662C7E42CE88F74817 /* RelWithDebInfo */,
+				7565E67C913749D18FA05AC4 /* Debug */,
+				E4D3ED66CD574465BEEBA114 /* Release */,
+				16974F08E6254388BCBB8CB4 /* MinSizeRel */,
+				DF142A3275A94A5AAD51C2E2 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		C252A37644F840FD89E5E490 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		84F42969333E401A8AEDADE6 /* Build configuration list for PBXProject "recast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32F71A39BA8345B7A1927989 /* Debug */,
-				B00F3D82F3084FE1B57989D4 /* Release */,
-				B631626A82774121A416E6FC /* MinSizeRel */,
-				3A4A979C78474224BC960E0D /* RelWithDebInfo */,
+				410381C4C5684DC69B4DAF3E /* Debug */,
+				79E62F8ACF1E4434998302E8 /* Release */,
+				1B39751B28ED4EB08ABC43EF /* MinSizeRel */,
+				F645EE9DA2B740B4BF89D246 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
